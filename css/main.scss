@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.table {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100rem;
+  padding: 0 auto;
+  text-align: center;
+}
+.table.table-striped.table-dark {
+  margin: 0 auto;
+}
+table, td, tr {
+  border-bottom: 1px solid green;
+  border-collapse: collapse;
+}
+td, tr , thead{
+  padding: 6px 10px;
+}
+
+//=================================================// 
+
+.position-center {
+  max-width: 300px;
+  margin: auto;
+}
+
+#update {
+  background-color: chocolate;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.form-group {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: darkcyan;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.load-data {
+  margin-top: 50px;
+}
+
+.list {
+  font-size: 40px;
+  text-align: center;
+  color: red;
+}
+
+#firstname, #lastname, #age {
+  padding-left: 10px;
+}
+
+#addrow, #update {
+  width: 50%;
+  margin: 10px auto;
+}
